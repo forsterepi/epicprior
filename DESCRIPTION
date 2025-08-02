@@ -1,0 +1,25 @@
+Package: epicprior
+Title: Collect Prior Knowledge for Epidemiology
+Description: Contains a Shiny App for collecting prior
+    knowledge from domain experts. The prior information
+    can be used in Bayesian models or simulation studies.
+Version: 0.1.0
+Authors@R: 
+    person("Felix", "Forster", , "felix.forster@med.uni-muenchen.de", role = c("aut", "cre","cph"),
+           comment = c(ORCID = "0000-0002-3670-9244"))
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+RoxygenNote: 7.3.2
+Imports: 
+    bslib,
+    checkmate,
+    fitdistrplus,
+    ggplot2,
+    magrittr,
+    rlang,
+    shiny,
+    stringi
