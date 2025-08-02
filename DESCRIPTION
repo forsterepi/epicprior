@@ -23,3 +23,5 @@ Imports:
     rlang,
     shiny,
     stringi
+URL: https://github.com/forsterepi/epicprior
+BugReports: https://github.com/forsterepi/epicprior/issues
